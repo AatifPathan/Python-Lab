@@ -1,0 +1,25 @@
+my_set = {1, 2, 3, 4, 5}
+another_set = {4, 5, 6, 7}
+
+my_set.add(8)
+my_set.remove(4)
+my_set.discard(10)
+popped_element = my_set.pop()
+my_set.clear()
+my_set.update(another_set)
+union_set = my_set.union(another_set)
+intersection_set = my_set.intersection(another_set)
+difference_set = my_set.difference(another_set)
+symmetric_difference_set = my_set.symmetric_difference(another_set)
+is_subset = my_set.issubset(another_set)
+is_superset = my_set.issuperset(another_set)
+is_disjoint = my_set.isdisjoint(another_set)
+
+print(popped_element)
+print(union_set)
+print(intersection_set)
+print(difference_set)
+print(symmetric_difference_set)
+print(is_subset)
+print(is_superset)
+print(is_disjoint)

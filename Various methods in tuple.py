@@ -1,0 +1,13 @@
+my_tuple = (1, 2, 3, 4, 5)
+length = len(my_tuple)
+not_in = 6 not in my_tuple
+maximum = max(my_tuple)
+minimum = min(my_tuple)
+count = my_tuple.count(3)
+index = my_tuple.index(4)
+print(length)
+print(not_in)
+print(maximum)
+print(minimum)
+print(count)
+print(index)

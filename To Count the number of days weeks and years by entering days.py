@@ -1,0 +1,5 @@
+a = int(input("Enter the number of days to be converted: "))
+y = int(a / 365)
+w = int((a % 365) / 7)
+d = int((a % 365) % 7)
+print("No. of years: {0}, No. of weeks: {1}, No. of days: {2}".format(y, w, d))
